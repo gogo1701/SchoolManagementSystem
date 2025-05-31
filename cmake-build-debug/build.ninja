@@ -61,6 +61,12 @@ build CMakeFiles/SchoolManagementSystem.dir/Person.cpp.obj: CXX_COMPILER__School
   OBJECT_DIR = CMakeFiles\SchoolManagementSystem.dir
   OBJECT_FILE_DIR = CMakeFiles\SchoolManagementSystem.dir
 
+build CMakeFiles/SchoolManagementSystem.dir/Student.cpp.obj: CXX_COMPILER__SchoolManagementSystem_unscanned_Debug C$:/Users/gogo1/CLionProjects/SchoolManagementSystem1/Student.cpp || cmake_object_order_depends_target_SchoolManagementSystem
+  DEP_FILE = CMakeFiles\SchoolManagementSystem.dir\Student.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SchoolManagementSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\SchoolManagementSystem.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SchoolManagementSystem
@@ -69,7 +75,7 @@ build CMakeFiles/SchoolManagementSystem.dir/Person.cpp.obj: CXX_COMPILER__School
 #############################################
 # Link the executable SchoolManagementSystem.exe
 
-build SchoolManagementSystem.exe: CXX_EXECUTABLE_LINKER__SchoolManagementSystem_Debug CMakeFiles/SchoolManagementSystem.dir/main.cpp.obj CMakeFiles/SchoolManagementSystem.dir/Person.cpp.obj
+build SchoolManagementSystem.exe: CXX_EXECUTABLE_LINKER__SchoolManagementSystem_Debug CMakeFiles/SchoolManagementSystem.dir/main.cpp.obj CMakeFiles/SchoolManagementSystem.dir/Person.cpp.obj CMakeFiles/SchoolManagementSystem.dir/Student.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SchoolManagementSystem.dir

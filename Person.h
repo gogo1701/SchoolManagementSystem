@@ -1,14 +1,24 @@
+#pragma once
 #include <iostream>
 #include <string>
-#include <bits/ostream.tcc>
-#pragma once
-
 
 class Person {
-private:
+protected:
     std::string name;
     int age;
+
 public:
     Person();
-    void print();
+    Person(const std::string& newName, int newAge);
+    virtual ~Person() = default;
+
+    virtual void print();
+
+    // Getters
+    std::string getName() const;
+    int getAge() const;
+
+    // Setters
+    void setName(const std::string& newName);
+    void setAge(int newAge);
 };
