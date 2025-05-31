@@ -5,7 +5,5 @@ class Student : public Person {
     int grade;
 
 public:
-    void print() override {
-        std::cout << name << " " << age << " " << grade << std::endl;
-    }
+    void print() override;
 };

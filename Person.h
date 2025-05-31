@@ -3,7 +3,7 @@
 #include <string>
 
 class Person {
-protected:
+private:
     std::string name;
     int age;
 
