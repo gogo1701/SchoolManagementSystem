@@ -1,5 +1,5 @@
 #include "Person.h"
-
+#include <iostream>
 Person::Person() {
     name = "NOT AVAILABLE";
     age = 0;
@@ -28,4 +28,10 @@ void Person::setName(const std::string &newName) {
 
 void Person::setAge(int newAge) {
     age = newAge;
+}
+
+std::string Person::toString() {
+    return "Person:\n"
+           "  Name: " + name + "\n"
+           "  Age: " + std::to_string(age) + "\n\n";
 }

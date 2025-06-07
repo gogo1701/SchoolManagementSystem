@@ -1,5 +1,4 @@
 #pragma once
-#include <iostream>
 #include <string>
 
 class Person {
@@ -21,4 +20,6 @@ public:
     // Setters
     void setName(const std::string& newName);
     void setAge(int newAge);
+
+    virtual  std::string toString();
 };
