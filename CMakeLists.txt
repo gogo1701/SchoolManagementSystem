@@ -9,4 +9,6 @@ add_executable(SchoolManagementSystem main.cpp
         Student.cpp
         Student.h
         Teacher.cpp
-        Teacher.h)
+        Teacher.h
+        PersonManager.cpp
+        PersonManager.h)
