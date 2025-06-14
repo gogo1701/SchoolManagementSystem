@@ -1,0 +1,9 @@
+# ninja log v6
+3	454	7716058421847963	CMakeFiles/SchoolManagementSystem.dir/main.cpp.obj	49e4200529ba409d
+8	462	7716058421903070	CMakeFiles/SchoolManagementSystem.dir/Student.cpp.obj	e1260b8d8bd7dee
+6	471	7716058421883017	CMakeFiles/SchoolManagementSystem.dir/Person.cpp.obj	42cf0c913b258b2b
+472	668	7716058426533167	SchoolManagementSystem.exe	e194df37da81a935
+2	182	7716061879627637	build.ninja	ff34cccca8ac2667
+4	368	7716062586235008	CMakeFiles/SchoolManagementSystem.dir/main.cpp.obj	49e4200529ba409d
+7	400	7716062586276582	CMakeFiles/SchoolManagementSystem.dir/Teacher.cpp.obj	3759646aef7304ff
+401	525	7716062590204904	SchoolManagementSystem.exe	4eeadbf9fea8ffdc
